@@ -5,4 +5,5 @@
 - [ ] How to install Vim on Ubuntu
 - [ ] Markdown plugin for Vim.
 - [ ] Update terminal prompt on Jupiter.
-
+- [ ] Install Vim MarkdownPreview on Jupiter.
+- [ ] 
