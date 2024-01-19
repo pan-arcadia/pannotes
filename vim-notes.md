@@ -50,4 +50,14 @@ Now, we can use the following command to update our version of Vim:
 sudo apt install vim
 ```
 
+## How to enter Linux commands from within Vim
+
+We can execute Linux commands in Vim using `command mode`:
+
+```shell
+:! ls
+```
+
+The above command will execute the `ls` command, listing the contents of the current directory.
+
 
