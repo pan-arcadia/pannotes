@@ -60,4 +60,41 @@ We can execute Linux commands in Vim using `command mode`:
 
 The above command will execute the `ls` command, listing the contents of the current directory.
 
+I tried to run a Linux alias command from Vim, but it didn't work. It said 'command not found'. So, maybe that's something to look into.
+
+## Buffers
+
+We can have multiple buffers open in Vim. So, to open a file into another buffer, we can use the following in command mode:
+
+```shell
+:e <filename>
+```
+
+This will open the file into a new buffer.
+
+We can switch between buffers using `:bn` or `:bp`. (Buffer Next, Buffer Previous).
+
+We can also create an empty buffer with the command `:enew`. We can then populate and save this buffer as a file.
+
+## Visual Mode
+
+Here are a few handy things we can do while in Visual mode.
+
+### Alphabetize lines of text
+
+We can use Visual mode to alphabetize lines of code.
+
+1. Enter visual mode: `v`
+2. Select the lines of text we want to alphabetize.
+3. While still in Visula mode, run the command: `:sort ui`.
+
+This will alphabetize the selectes lines of text. Could be handy in a CSS file.
+
+### Find and Replace
+
+We can find and replace text in our file.
+
+```shell
+:%s/<replace>/<replace_with>/g
+```
 
