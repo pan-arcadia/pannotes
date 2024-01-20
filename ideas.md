@@ -1,10 +1,10 @@
-# Concepts I need to learn
+# Ideas 
 
 ## Vim
 
-- [ ] How to install Vim on Ubuntu
-- [ ] Install Vim MarkdownPreview on Jupiter.
+- [x] How to install Vim on Ubuntu
 - [ ] Markdown plugin for Vim.
+- [ ] Install Vim MarkdownPreview on Jupiter.
 - [ ] Update terminal prompt on Jupiter.
 - [ ] 
 
