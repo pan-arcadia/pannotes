@@ -8,6 +8,7 @@
 - [ ] Update terminal prompt on Jupiter.
 - [ ] vim --version | grep clipboard
 - [ ] :helpgrep <linebreak>
+- [ ] Learn how to use variables in .bashrc.
 
 ## Open Vim help in a verticle split window
 
