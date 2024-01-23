@@ -10,6 +10,7 @@
 - [ ] :helpgrep <linebreak>
 - [ ] Learn how to use variables in .bashrc.
 - [ ] ls -a | grep .vim
+- [ ] ls -Fal | grep .vim
 
 ## Open Vim help in a verticle split window
 
