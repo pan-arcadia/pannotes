@@ -9,6 +9,7 @@
 - [ ] vim --version | grep clipboard
 - [ ] :helpgrep <linebreak>
 - [ ] Learn how to use variables in .bashrc.
+- [ ] ls -a | grep .vim
 
 ## Open Vim help in a verticle split window
 
