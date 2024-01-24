@@ -41,3 +41,17 @@ Breaking down the PS1 string:
 - `\[\033[0m` => Reset the text color settings for the terminal.
 - `\n` => newline
 - `\$` => Show $ on next line.
+
+## How to insert text on multiple lines
+
+Enter Visual Block Mode `Ctrl V`.
+Select the lines we want to edit.
+Enter Insert Mode using `Shift I`.
+Enter Normal Mode.
+Wait a second and the text will be magically inserted on every line!
+
+## How to display current colorscheme in Vim
+
+```shell
+echo g:colors_name
+```
