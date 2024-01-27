@@ -22,6 +22,9 @@
 
 ```vim
 PS1='\[\033[1;32m\][\t]-[\[\033[1;31m\j\[\033[1;32m\]]-[\h:\[\033[1;36m\]\w]\[\033[0m\] \n\$ '
+
+
+PS1='\[\033[38;5;10m\][\t]-[\[\033[38;5;9m\j\[\033[38;5;10m\]]-[\h:\[\033[38;5;14m\]\w]\[\033[0m\] \n\$ '
 ```
 
 We want to wrap the color codes in `\[ \]`. This tells the shell that everything between the escaped brackets are non-printing characters.
