@@ -12,6 +12,12 @@
 - [ ] ls -a | grep .vim
 - [ ] ls -Fal | grep .vim
 
+## Reminder that I Installed lynx on pan@pluto
+
+Lynx is an open source command line browser.
+
+Just run `lynx <url>` in the terminal.
+
 ## Open Vim help in a verticle split window
 
 ```vim
