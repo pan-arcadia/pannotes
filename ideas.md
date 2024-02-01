@@ -11,6 +11,8 @@
 - [ ] Learn how to use variables in .bashrc.
 - [ ] ls -a | grep .vim
 - [ ] ls -Fal | grep .vim
+- [ ] Remove bitbucket account
+= [ ] set up Launchpad
 
 ## Reminder that I Installed lynx on pan@pluto
 
@@ -64,3 +66,5 @@ Wait a second and the text will be magically inserted on every line!
 ```shell
 echo g:colors_name
 ```
+
+
