@@ -12,7 +12,51 @@
 - [ ] ls -a | grep .vim
 - [ ] ls -Fal | grep .vim
 - [ ] Remove bitbucket account
-= [ ] set up Launchpad
+- [ ] set up Launchpad
+
+## Aliases and Functions for the Terminal
+
+Look up functions. This sounds interesting.
+
+```shell
+function mkcd() {
+  mkdir -p "$@" && cd "$_";
+}
+```
+
+[FreeCodeCamp Article](https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/)
+
+## How to Symlink our files
+
+We can install `symlinks` on our machine to help us:
+
+```shell
+sudo apt install symlinks
+```
+
+We can follow a symbolic link:
+
+```shell
+realpath link_name
+```
+
+We can create a symbolic link:
+
+```shell
+ln -s target_file link_name
+```
+
+We can delete a symbolic link:
+
+```shell
+rm link_name
+```
+
+We can create a symbolic link, or pointer, for a directory. 
+
+```shell
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+```
 
 ## Reminder that I Installed lynx on pan@pluto
 
