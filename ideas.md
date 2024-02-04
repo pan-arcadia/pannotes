@@ -14,6 +14,19 @@
 - [ ] Remove bitbucket account
 - [ ] set up Launchpad
 
+## Bring our dotfiles into a new machine
+
+Clone our dotfiles repository the home directory of our machine.
+
+Now we need to create our symlinks:
+
+```shell
+ln -s ~/dotfiles/.bashrc ~/.bashrc
+
+ln -s ~/dotfiles/.vim ~/.vim
+```
+
+
 ## Aliases and Functions for the Terminal
 
 Look up functions. This sounds interesting.
