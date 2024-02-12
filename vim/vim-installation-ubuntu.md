@@ -1,12 +1,12 @@
 # How to Install Vim on Ubuntu 
 
-We can install Vim on Ubuntu with the following terminal command:
+Install the latest version of Vim available in the Ubuntu repositories.
 
 ```shell
 sudo apt install vim
 ```
 
-This issue with this approach is that we may not get the latest version of Vim. We will get the latest version available in Ubuntu's repositories.
+This installation may not give us the latest version of Vim. To get the latest version, we can install Vim using a PPA.
 
 ## Install Latest Version of Vim using PPA
 
@@ -17,11 +17,7 @@ sudo add-apt-repository ppa:jonathonf/vim
 sudo apt update
 ```
 
-Now we can run the following command to install the latest version of Vim offered by the PPA:
-
-```shell
-sudo apt install vim
-```
+Now, when we run `sudo apt install vim`, we will be referencing the PPA indexed on our machine.
 
 ## Reference
 
